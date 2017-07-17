@@ -1,8 +1,5 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+   box-sizing : border-box;
 }
 
 html,
@@ -17,14 +14,11 @@ body {
     display: flex;
 }
 
-
 #map {
     float: right;
     width: 70%;
     height: 100%;
     overflow: hidden;
-}
-
 }
 
 .body-content {
