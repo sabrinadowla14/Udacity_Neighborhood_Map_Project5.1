@@ -141,7 +141,7 @@ var Restaurant = function(data) {
     self.wikiSnippet = data.wikiSnippet;
     self.distance = ko.observable(data.distance);
     self.streetViewImage = data.streetViewImage();
-    this.visible = ko.observable(true);
+    self.visible = ko.observable(true);
     // created resContent for data
     this.resContent = '<img src="' + self.streetViewImage +
         '" alt="Street View Image of ' + self.name + '"><br><hr style="margin-bottom: 10px"><strong>' +
@@ -246,9 +246,9 @@ var Restaurant = function(data) {
 
 var ViewModel = function() {
     var self = this;
-    this.names = ko.observableArray([]);
-    this.markers = ko.observableArray([]);
-    this.restaurantList = ko.observableArray([]);
+    this.names = ko.observableArray();
+    this.markers = ko.observableArray();
+    this.restaurantList = ko.observableArray();
     this.query = ko.observable('');
 
     initialRestaurants.forEach(function(resLoc) {
