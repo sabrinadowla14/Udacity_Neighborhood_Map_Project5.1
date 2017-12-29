@@ -1,10 +1,10 @@
-<h1>Neighborhood Map: Project 5.</h1>
+# Neighborhood Map: Project 5.
 
 **Note**: I hereby confirm that all project submissions consist of my own work. Codes are taken from *Instructors Notes*.
 Taken ideas from *websites* and *Github*.
 
-Developed a single page application using Google Maps API to display a map of restaurants in San Francisco, CA neighborhood.
-The markers display the
+## Developed a single page application using Google Maps API to display a map of restaurants in San Francisco, CA neighborhood.
+### The markers display the
 *street view image*,
 *location,
 * URL,
@@ -18,7 +18,7 @@ when the page is loaded. A filter option that uses an input field to filter both
 I have used a third-party APIs Wikipedia to provide information when a map marker or list view entry is clicked. When a list item or the map
 marker is clicked, my map marker will bounce. It can open an info window with all the information about the selected item. 
 
-<h2>Required Libraries and dependencies</h2>
+## Required Libraries and dependencies
 Knockout js - javascript Library -  version - 3.4.2
 
 Project Contents ( * css and js folders, index.html file)
