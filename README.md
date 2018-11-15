@@ -5,6 +5,7 @@ Taken ideas from *websites* and *Github*.
 
 ## Developed a single page application using Google Maps API to display a map of restaurants in San Francisco, CA neighborhood.
 ### The markers display the
+
 *street view image*,
 *location,
 * URL,
@@ -19,6 +20,7 @@ I have used a third-party APIs Wikipedia to provide information when a map marke
 marker is clicked, my map marker will bounce. It can open an info window with all the information about the selected item. 
 
 ## Required Libraries and dependencies
+
 Knockout js - javascript Library -  version - 3.4.2
 
 Project Contents ( * css and js folders, index.html file)
